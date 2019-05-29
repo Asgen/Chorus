@@ -1,0 +1,25 @@
+$main-color: #0197F6;
+$heading-color: #01619D;
+$button-color: #DB2B39;
+$on-hover-color: #E1515D;
+
+$desktop-width: 1110px;
+
+$theme-colors: (
+  "primary": #DB2B39,
+  "danger": #ff4136
+);
+
+$retina-dpi: 144dpi;
+$retina-dppx: 1.5dppx;
+
+@mixin list-killer {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin margin-killer {
+  margin: 0;
+  padding: 0;
+}

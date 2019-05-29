@@ -1,0 +1,23 @@
+.carousel-control-next,
+.carousel-control-prev {
+	top: unset;
+	bottom: 20px;
+
+	z-index: 20;
+}
+
+.carousel-control-next {
+	right: 33%;
+}
+
+.carousel-control-prev {
+	left: 33%;
+}
+
+.navbar-collapse {
+	justify-content: center;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+	padding: 0 27px;
+}
