@@ -1,0 +1,15 @@
+.content {
+  margin-bottom: 50px;
+
+  &__heading {
+    @include h2;
+  }
+
+  &__slider {
+    margin-bottom: 70px;
+  }
+
+  &__caption {
+    @include caption;
+  }
+}

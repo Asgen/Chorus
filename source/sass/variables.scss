@@ -5,10 +5,20 @@ $on-hover-color: #E1515D;
 
 $desktop-width: 1110px;
 
-$theme-colors: (
-  "primary": #DB2B39,
-  "danger": #ff4136
-);
+@mixin h2 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 63px;
+
+  margin-bottom: 20px;
+}
+
+@mixin caption {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
 
 $retina-dpi: 144dpi;
 $retina-dppx: 1.5dppx;

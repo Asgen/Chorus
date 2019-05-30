@@ -1,17 +1,29 @@
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next--hero,
+.carousel-control-prev--hero {
 	top: unset;
 	bottom: 20px;
 
 	z-index: 20;
 }
 
-.carousel-control-next {
+.carousel-control-next--hero {
 	right: 33%;
 }
 
-.carousel-control-prev {
+.carousel-control-prev--hero {
 	left: 33%;
+}
+
+.carousel-caption--galery {
+  right: unset;
+  left: 0;
+  bottom: 0;
+
+  padding: 0;
+}
+
+.content__caption--galery {
+  margin: 5px;
 }
 
 .navbar-collapse {
@@ -21,3 +33,9 @@
 .navbar-expand .navbar-nav .nav-link {
 	padding: 0 27px;
 }
+
+$theme-colors: (
+  "primary": #0197F6,
+  "secondary": #DB2B39,
+  "danger": #ff4136
+)

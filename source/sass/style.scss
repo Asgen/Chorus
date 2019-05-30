@@ -1,16 +1,25 @@
 @import "fonts.scss";
 @import "normalize.scss";
+@import "custom.scss";
 @import "bootstrap.scss";
 
-@import "custom.scss";
 @import "variables.scss";
+
 @import "main-header/main-header.scss";
 @import "main-page/main-page.scss";
+@import "fixed-container.scss";
+@import "sidebar/sidebar.scss";
+@import "content/content.scss";
 
 body {
   position: relative;
 
   font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .visually-hidden {

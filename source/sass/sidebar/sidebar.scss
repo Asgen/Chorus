@@ -1,0 +1,13 @@
+.sidebar {
+  width: 350px;
+  margin-right: 30px;
+
+  box-sizing: border-box;
+
+  &__heading {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+  }
+}

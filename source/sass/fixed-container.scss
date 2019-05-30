@@ -1,0 +1,9 @@
+.fixed-container {
+  width: 1110px;
+  margin: 0 auto;
+
+  &--main-content {
+    display: flex;
+    padding-top: 50px;
+  }
+}
