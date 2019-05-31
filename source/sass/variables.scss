@@ -10,11 +10,15 @@ $desktop-width: 1110px;
   font-size: 50px;
   line-height: 63px;
 
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-@mixin caption {
-  font-style: italic;
+@mixin footer-text {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+@mixin sm-text {
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;

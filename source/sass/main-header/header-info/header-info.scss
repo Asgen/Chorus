@@ -1,0 +1,15 @@
+.header-info {
+  &__links-container,
+  &__search-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__phone {
+    width: 100%;
+  }
+}

@@ -7,4 +7,15 @@
 		align-items: center;
 		/*flex-wrap: wrap;*/
 	}
+
+  &__list {
+    display: flex;
+
+    @include list-killer;
+    font-size: 0;
+  }
+
+  &__item {
+    margin-right: 16px;
+  }
 }

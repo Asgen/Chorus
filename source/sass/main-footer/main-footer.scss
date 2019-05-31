@@ -1,0 +1,63 @@
+.main-footer {
+  padding: 40px 0;
+
+  color: $white;
+  background-color: $primary;
+
+  &__col-cont {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__list {
+    @include list-killer;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__text-block {
+    @include margin-killer;
+    margin-bottom: 15px;
+
+    @include footer-text;
+  }
+
+  &__text-block:last-child {
+    margin-bottom: 20px;
+  }
+
+  &__text-block--bold {
+    font-weight: 600;
+  }
+
+  &__sm-text {
+    @include sm-text;
+  }
+
+  &__button {
+    @include sm-text;
+    background-color: transparent;
+    color: $white;
+  }
+
+  &__social-list {
+    @include list-killer;
+  }
+
+  &__social-list path {
+    fill: #FFF;
+  }
+
+  & a {
+    color: $white;
+  }
+
+  & a:hover {
+    color: $secondary;
+  }
+}

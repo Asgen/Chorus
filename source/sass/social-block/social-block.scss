@@ -1,0 +1,18 @@
+.social-block {
+  &--footer {
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: flex;
+
+    @include list-killer;
+    font-size: 0;
+  }
+
+  &__item {
+    margin-right: 16px;
+    opacity: 0.7;
+  }
+}
+

@@ -1,12 +1,15 @@
 @import "fonts.scss";
 @import "normalize.scss";
-@import "custom.scss";
-@import "bootstrap.scss";
 
+@import "bootstrap.scss";
+@import "custom.scss";
 @import "variables.scss";
 
 @import "main-header/main-header.scss";
+@import "main-header/header-info/header-info.scss";
+@import "main-footer/main-footer.scss";
 @import "main-page/main-page.scss";
+@import "social-block/social-block.scss";
 @import "fixed-container.scss";
 @import "sidebar/sidebar.scss";
 @import "content/content.scss";
