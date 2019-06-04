@@ -1,4 +1,6 @@
 .social-block {
+  flex-grow: 1;
+
   &--footer {
     margin-bottom: 20px;
   }
@@ -8,6 +10,10 @@
 
     @include list-killer;
     font-size: 0;
+  }
+
+  &__list--header {
+    justify-content: flex-end;
   }
 
   &__item {

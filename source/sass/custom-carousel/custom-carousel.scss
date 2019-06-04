@@ -1,0 +1,79 @@
+.custom-carousel {
+
+  &__indicators {
+    margin: 0;
+    padding: 7px 10px;
+
+    bottom: 16px;
+    left: 50%;  
+    right: unset;
+    transform: translateX(-50%);
+
+    border-radius: 15px;
+    background-color: $white;
+  }
+
+  &__indicators li {
+    width: 10px;
+    height: 10px;
+
+    background-color: $gray-600;
+    border: none;
+    border-radius: 50%;
+
+    box-shadow: 0 0 0px 5px $white;
+    opacity: 1;
+  }
+
+  &__indicators .active {
+    background-color: $button-color;
+  }
+
+  &__next,
+  &__prev {
+    top: unset;
+    bottom: 20px;
+
+    z-index: 20;
+  }
+
+  &__next {
+    right: 33%;
+  }
+
+  &__prev {
+    left: 33%;
+  }
+
+  &__prev-icon,
+  &__next-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+
+    background-color: $white;
+    background-image: none;
+  }
+
+  &__prev-icon--small,
+  &__next-icon--small {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__prev-icon svg,
+  &__next-icon svg {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+  }
+
+  &__prev-icon--small svg,
+  &__next-icon--small svg {
+    position: absolute;
+    top: 5px;
+    left: 7px;
+  }
+}

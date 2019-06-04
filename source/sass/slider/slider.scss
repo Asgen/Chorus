@@ -1,0 +1,17 @@
+.slider {
+  top: 20%;
+
+  text-align: center;
+
+  &__heading {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101px;
+  }
+
+  &__text {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: normal;
+  }
+}

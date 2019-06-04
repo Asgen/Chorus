@@ -1,18 +1,26 @@
 @import "fonts.scss";
 @import "normalize.scss";
 
+@import "variables.scss";
+
 @import "bootstrap.scss";
 @import "custom.scss";
-@import "variables.scss";
+
+@import "custom-carousel/custom-carousel.scss";
+@import "custom-carousel/carousel-thumbnails.scss";
 
 @import "main-header/main-header.scss";
 @import "main-header/header-info/header-info.scss";
+@import "slider/slider.scss";
+@import "chorus-history/chorus-history.scss";
 @import "main-footer/main-footer.scss";
 @import "main-page/main-page.scss";
 @import "social-block/social-block.scss";
 @import "fixed-container.scss";
 @import "sidebar/sidebar.scss";
 @import "content/content.scss";
+@import "awards/awards.scss";
+@import "links-block/links-block.scss";
 
 body {
   position: relative;
@@ -23,6 +31,15 @@ body {
 p {
   font-size: 18px;
   line-height: 25px;
+}
+
+a {
+  color: $gray-900;
+}
+
+a:hover {
+  color: $on-hover-color;
+  text-decoration: none;
 }
 
 .visually-hidden {

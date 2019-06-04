@@ -4,10 +4,25 @@
 
   box-sizing: border-box;
 
+  &__section {
+  	padding-top: 30px;
+  	padding-bottom: 40px;
+  	margin-bottom: 40px;
+
+  	background-color: $gray-100;
+  }
+
   &__heading {
     font-weight: 600;
     font-size: 25px;
     line-height: 31px;
     text-align: center;
+  }
+
+  &__button {
+  	width: 80%;
+  	margin: 0 auto;
+	
+	@include sm-text;
   }
 }

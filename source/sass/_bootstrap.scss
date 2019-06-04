@@ -5,12 +5,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+/* colors */
 
 $theme-colors: (
-  "primary": #0197F6,
-  "secondary": #DB2B39,
+  "primary": $main-color, /* Фон меню */
+  "secondary": $button-color, /* btn-secondary */
   "danger": #ff4136
 );
+
+ $primary: $heading-color; /* Заголовки, фон футера */
+ $secondary: $button-color;
 
 
 @import "../../node_modules/bootstrap/scss/functions";

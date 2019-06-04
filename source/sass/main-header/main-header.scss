@@ -1,12 +1,13 @@
 .main-header {
-	min-width: $desktop-width;
+  min-width: $desktop-width;
 
-	&__content {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		/*flex-wrap: wrap;*/
-	}
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 0 20px;
+  }
 
   &__list {
     display: flex;

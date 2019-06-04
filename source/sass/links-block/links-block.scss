@@ -1,0 +1,45 @@
+.links-block {
+  &__card {
+    width: 22%;
+    display: inline-block;
+    margin-right: 30px;
+
+    border: none;
+  }
+
+  &__card:last-child {
+    margin-right: 0;
+  }
+
+  &__card:nth-child(4n+4) {
+    margin-right: 0;
+  }
+
+  &__body {
+    padding: 10px;
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    padding-bottom: 50px;
+  }
+
+  &__link::before {
+    content: "";
+    position: absolute;
+
+    width: 25px;
+    height: 30px;
+
+    left: 0;
+
+    background-repeat: no-repeat;
+    background-image: url("../img/text-document.svg");
+  }
+
+  &__text {
+    font-weight: 600;
+  }
+}

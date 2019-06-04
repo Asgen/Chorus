@@ -1,0 +1,16 @@
+.carousel-thumbnails {
+	padding-bottom: 116px;
+
+	&__indicators {
+		bottom: 0;
+	}
+
+	&__indicators li {
+		width: 110px;
+		height: 83px;
+	}
+
+	&__indicators img {
+		height: 100%;
+	}
+}

@@ -3,6 +3,9 @@ $heading-color: #01619D;
 $button-color: #DB2B39;
 $on-hover-color: #E1515D;
 
+$blue: #B9E2FC;
+$light-blue: #E7F5FE;
+
 $desktop-width: 1110px;
 
 @mixin h2 {
@@ -11,6 +14,14 @@ $desktop-width: 1110px;
   line-height: 63px;
 
   margin-bottom: 40px;
+}
+
+@mixin h3 {
+font-weight: 600;
+font-size: 30px;
+line-height: 120%;
+
+ margin-bottom: 20px;
 }
 
 @mixin footer-text {
@@ -22,6 +33,17 @@ $desktop-width: 1110px;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+
+@mixin general-text {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+@mixin sm-links {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 $retina-dpi: 144dpi;

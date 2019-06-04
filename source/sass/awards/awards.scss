@@ -1,0 +1,60 @@
+.awards {
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__container>.active {
+    display: flex;
+  }
+
+  &__wrapper {
+    position: relative;
+
+    margin-right: 30px;
+    margin-bottom: 100px;
+    width: 22%;
+    box-sizing: border-box;
+  }
+
+
+  &__list {
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+   &__img--round {
+    display: block;
+
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+  }
+
+  &__img:last-child {
+    margin-right: 0;
+  }
+
+  &__caption {
+    @include margin-killer;
+    width: 100%;
+
+    padding: 0 13px;
+
+    box-sizing: border-box;
+
+    line-height: 20px;
+  }
+
+    &__caption--role {
+      text-align: center;
+      font-size: 14px;
+      color: $gray-500;
+  }
+}

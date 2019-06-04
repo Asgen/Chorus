@@ -1,0 +1,62 @@
+.chorus-history {
+  position: relative;
+
+  @include general-text;
+
+  &__header {
+    padding-left: 137px;
+
+    background-color: $light-blue;
+  }
+
+  &__heading {
+    @include general-text;
+  }
+
+  &__date {
+    position: absolute;
+    left: 26px;
+    top: 11px;
+
+    color: $gray-600;
+  }
+
+  &__expand {
+    position: absolute;
+    right: 40px;
+    top: 4px;
+
+    text-decoration: none;
+  }
+
+  &__expand::before {
+    content: "Развернуть";
+  }
+
+  &__expand[aria-expanded=true]::before {
+    content: "Свернуть";
+  }
+
+  &__expand[aria-expanded=true] + &__header {
+    background-color: $blue;
+  }
+
+  &__text {
+    padding: 30px 137px;
+  }
+
+  &__link {
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: $button-color;
+    text-decoration: underline;
+  }
+
+  &__caption {
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+}
+
