@@ -31,10 +31,33 @@
 
   &__expand::before {
     content: "Развернуть";
+    color: $button-color;
+  }
+
+  &__expand::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid $button-color;
+    border-bottom: none;
+    transition: all 0.4s ease;
   }
 
   &__expand[aria-expanded=true]::before {
     content: "Свернуть";
+    color: $heading-color;
+  }
+
+  &__expand[aria-expanded=true]::after {
+    border-bottom: 12px solid $heading-color;
+    border-top: none;
   }
 
   &__expand[aria-expanded=true] + &__header {
