@@ -52,9 +52,12 @@
     line-height: 20px;
   }
 
-    &__caption--role {
-      text-align: center;
-      font-size: 14px;
-      color: $gray-500;
+  &__caption--role {
+    font-size: 14px;
+    color: $gray-500;
+  }
+
+  &__caption--sm {
+    @include sm-text;
   }
 }
