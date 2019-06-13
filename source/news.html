@@ -23,16 +23,47 @@
       <h2 class="content__subtitle">Как проходит обучение</h2>
       <p class="content__text content__text--margin-bottom">По-моему, он был самой совершенной мыслящей и наблюдающей машиной, какую когда-либо видел мир; но в качестве влюбленного он оказался бы не на своем месте. Он всегда говорил о нежных чувствах не иначе, как с презрительной насмешкой, с издевкой. Нежные чувства были в его глазах великолепным объектом для наблюдения, превосходным средством сорвать покров с человеческих побуждений и дел. Но для изощренного мыслителя допустить такое вторжение чувства в свой утонченный и великолепно налаженный внутренний мир означало бы внести туда смятение, которое свело бы на нет все завоевания его мысли.</p>
 
-      <button class="btn btn-secondary btn-lg">Оставить заявку</button>
+      <button type="button" class="btn btn-secondary btn-lg" data-toggle="modal" data-target="#exampleModal">Оставить заявку</button>
       <div class="content__hr"></div>
     </article>
 
   </div>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/util.js"></script>
-    <script src="js/carousel.js"></script>
-    <script src="js/dropdown.js"></script>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title content__subtitle" id="exampleModalLabel">Запись в хор</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <p class="modal__caption">Нажимая кнопку отправить вы принимаете соглашение об обработке персональных данных</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal">
+    <div class="modal__wrapper">
+      <div class="modal__form">
+        
+      </div>
+    </div>
+  </div>
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/util.js"></script>
+  <script src="js/carousel.js"></script>
+  <script src="js/dropdown.js"></script>
+  <script src="js/modal.js"></script>
 
 </body>
 </html>

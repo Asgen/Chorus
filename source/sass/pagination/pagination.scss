@@ -1,0 +1,27 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+
+
+	& a,
+	& span {
+		@include general-text;
+		padding: 5px 13px;
+
+		border-radius: 50%;
+	}
+
+	& .current {
+		color: $white;
+		background-color: $on-hover-color;
+		opacity: 0.6;
+	}
+
+	& .prev.page-numbers {
+		margin-right: 25px;
+	}
+
+	& .next.page-numbers {
+		margin-left: 25px;
+	}
+}

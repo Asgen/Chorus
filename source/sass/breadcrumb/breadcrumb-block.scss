@@ -1,9 +1,15 @@
 .breadcrumb-block {
 	position: absolute;
 	top: 16px;
+
+	color: $gray-500;
 	
 	&__list {
 		padding: 0;
 		background-color: transparent;
+	}
+
+	& a {
+		color: $gray-500;
 	}
 }

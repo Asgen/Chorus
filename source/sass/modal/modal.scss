@@ -1,0 +1,6 @@
+.modal {
+	&__caption {
+		@include sm-links;
+		color: $gray-500;
+	}
+}
