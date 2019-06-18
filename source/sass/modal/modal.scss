@@ -1,4 +1,8 @@
 .modal {
+	&__wrapper {
+		padding: 30px;
+	}
+
 	&__caption {
 		@include sm-links;
 		color: $gray-500;

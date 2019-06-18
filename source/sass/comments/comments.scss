@@ -1,0 +1,47 @@
+.comments  {
+	display: flex;
+	padding-top: 30px;
+	flex-direction: column;
+
+	border-top: 2px solid $gray-500;	
+}
+
+.comments__item {
+	position: relative;
+	display: flex;
+	padding: 20px;
+	margin-bottom: 20px;
+
+	border: 1px solid $gray-500;
+	border-radius: 3px;
+}
+
+.comments__left {
+	width: 150px;
+	margin-right: 30px;
+	flex-shrink: 0;
+}
+
+.comments__author {
+	position: absolute;
+	left: 20px;
+	top: 120px;
+}
+
+.comments__date {
+	@include sm-text;
+	color: $gray-500;
+}
+
+.comment-form-comment {
+	display: flex;
+	flex-direction: column;
+}
+
+.comment-form .form-submit .submit {
+	padding: 0.25rem 0.5rem;
+	color: $white;
+    background-color: $button-color;
+    border-color: $button-color;
+    border-radius: 3px;
+}

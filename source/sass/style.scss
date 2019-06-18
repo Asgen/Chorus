@@ -24,6 +24,11 @@
 @import "breadcrumb/breadcrumb-block.scss";
 @import "pagination/pagination.scss";
 @import "modal/modal.scss";
+@import "found/found.scss";
+@import "contacts/contacts.scss";
+@import "comments/comments.scss";
+@import "categories_wp/categories.scss";
+
 
 body {
   position: relative;
@@ -43,6 +48,10 @@ a {
 a:hover {
   color: $on-hover-color;
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 .visually-hidden {
@@ -65,4 +74,9 @@ margin-right: 28px;
 .alignright {
 float: right;
 margin-left: 28px;
+}
+
+.aligncenter {
+display: block;
+margin: 0 auto;
 }

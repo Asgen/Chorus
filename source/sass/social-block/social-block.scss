@@ -1,6 +1,10 @@
 .social-block {
   flex-grow: 1;
 
+  &--margin-bottom {
+    margin-bottom: 50px;
+  }
+
   &--footer {
     margin-bottom: 20px;
   }

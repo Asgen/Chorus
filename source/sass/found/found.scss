@@ -1,0 +1,27 @@
+.found {
+	display: flex;
+	max-width: 635px;
+
+	padding: 20px;
+	margin-bottom: 20px;
+
+	border: 2px solid #D0ECFD;
+	border-radius: 3px;
+
+	&__right {
+		flex-grow: 1;
+		padding-left: 30px;
+	}
+
+	&__text {
+		font-size: 22px;
+		line-height: 120%;
+
+		color: $heading-color;
+	}
+
+	&__caption {
+		color: $gray-500;
+		margin: 0;
+	}
+}

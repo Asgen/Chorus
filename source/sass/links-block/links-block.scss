@@ -1,4 +1,10 @@
 .links-block {
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
   &__card {
     width: 22%;
     display: inline-block;
@@ -19,14 +25,20 @@
     padding: 10px;
   }
 
-  &__link {
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
     display: block;
+    width: 33%;
     position: relative;
     padding-left: 32px;
     padding-bottom: 50px;
   }
 
-  &__link::before {
+  &__item::before {
     content: "";
     position: absolute;
 
@@ -37,6 +49,15 @@
 
     background-repeat: no-repeat;
     background-image: url("../img/text-document.svg");
+  }
+
+  &__item--no-pic::before {
+    width: 0;
+    height: 0;
+  }
+
+  &__item--four-column {
+    width: 25%;
   }
 
   &__text {

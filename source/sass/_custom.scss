@@ -45,11 +45,13 @@
 
 .nav-link {
   border: none;
-  
-
 }
 
-.nav-tabs .nav-link.active {
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
+}
+
+.nav-item.active {
   border: none;
   border-bottom: 2px solid $button-color;
 }
@@ -61,6 +63,19 @@
 
 .tab-content>.active {
     display: flex;
+}
+
+.dropdown-item {
+  color: $heading-color;
+}
+
+.dropdown-item.active {
+  color: $white;
+  background-color: $button-color;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-color: $button-color;
 }
 
 /* ------ */

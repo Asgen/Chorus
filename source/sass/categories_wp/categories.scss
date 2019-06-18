@@ -1,0 +1,8 @@
+.categories {
+	@include list-killer;
+}
+
+.categories li {
+	@include h3;
+	color: $heading-color;
+}
