@@ -7,4 +7,10 @@
 		@include sm-links;
 		color: $gray-500;
 	}
+
+	&__file-input {
+		@include general-text;
+		color: $button-color;
+		text-decoration: underline;
+	}
 }

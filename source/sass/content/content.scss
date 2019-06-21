@@ -61,4 +61,23 @@
 
     background-color: $gray-400;
   }
+
+  &__button {
+    margin: 60px 0;
+  }
+
+  &__wp-wrapper {
+    margin-bottom: 40px;
+    border: 1px solid $gray-400;
+    padding: 20px;
+    border-radius: 3px;
+  }
+
+  &__wp-wrapper a {
+    text-decoration: underline;
+  }
+
+  &__wp-wrapper~h5 {
+    margin-bottom: 20px;
+  }
 }

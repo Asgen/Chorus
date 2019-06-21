@@ -1,0 +1,19 @@
+.wp-search {
+	position: relative;
+
+	&__submit {
+		position: absolute;
+    right: 0;
+    top: 0;
+
+		background-color: transparent;
+		border: none;
+		outline: none;
+		width: 21px;
+		height: 21px;
+
+		background-image: url("../img/loupe.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+}

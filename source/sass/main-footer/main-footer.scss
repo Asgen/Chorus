@@ -1,8 +1,9 @@
 .main-footer {
+  min-width: $desktop-width;
   padding: 40px 0;
 
   color: $white;
-  background-color: $primary;
+  background-color: $info;
 
   &__col-cont {
     height: 100%;

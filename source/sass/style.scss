@@ -28,6 +28,8 @@
 @import "contacts/contacts.scss";
 @import "comments/comments.scss";
 @import "categories_wp/categories.scss";
+@import "wp-search/wp-search.scss";
+
 
 
 body {
@@ -52,6 +54,7 @@ a:hover {
 
 img {
   max-width: 100%;
+  height: auto;
 }
 
 .visually-hidden {

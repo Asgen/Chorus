@@ -10,11 +10,12 @@
 $theme-colors: (
   "primary": $main-color, /* Фон меню */
   "secondary": $button-color, /* btn-secondary */
-  "danger": #ff4136
+  "danger": #01619D /* $heading-color */
 );
 
  $primary: $heading-color; /* Заголовки, фон футера */
  $secondary: $button-color;
+ $info: $footer-color;
 
 
 @import "../../node_modules/bootstrap/scss/functions";

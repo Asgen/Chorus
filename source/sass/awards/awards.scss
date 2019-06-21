@@ -18,6 +18,19 @@
     box-sizing: border-box;
   }
 
+  &__wrapper--three {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 31%;
+
+    border: 1px solid $gray-400;
+    border-radius: 3px;
+  }
+
+  &__wrapper--three:nth-child(3n+3) {
+    margin-right: 0;
+  }
+
 
   &__list {
     margin-bottom: 50px;
@@ -50,6 +63,10 @@
     box-sizing: border-box;
 
     line-height: 20px;
+  }
+
+  &__caption--padding {
+    padding: 0 20px;
   }
 
   &__caption--role {
