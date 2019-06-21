@@ -1,9 +1,14 @@
+.carousel-inner {
+  overflow: visible;
+}
+
 .carousel-caption--galery {
   right: unset;
   left: 0;
-  bottom: 0;
+  bottom: -30px;
 
   padding: 0;
+  color: $gray-700;
 }
 
 .content__caption--galery {

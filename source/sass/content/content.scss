@@ -28,6 +28,24 @@
     margin-bottom: 40px;
   }
 
+  &__text--icon {
+    display: block;
+    position: relative;
+  }
+
+  &__text--icon::before {
+    content: "";
+    width: 6px;
+    height: 8px;
+    position: absolute;
+    top: 9px;
+    left: -15px;
+
+    background-image: url("../img/triangle.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
   &__block {
     width: 100%;
     margin-bottom: 40px;

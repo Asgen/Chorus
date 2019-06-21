@@ -12,5 +12,6 @@
 		@include general-text;
 		color: $button-color;
 		text-decoration: underline;
+    cursor: pointer;
 	}
 }
